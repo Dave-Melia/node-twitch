@@ -1,0 +1,42 @@
+body {
+  background-color: lightgrey;
+}
+
+img{
+  margin-bottom: -4px;
+}
+
+.gameContainer {
+  display: flex;
+  flex-flow: row wrap;
+  margin: auto;
+  max-width: 1200px;
+  justify-content: space-around;
+}
+
+.game {
+  background-color: white;
+  border-radius: 15px 15px 5px 5px;
+  box-shadow: 10px 10px 20px #ACACAC;
+  flex-basis: 272px;
+  width: 272px;
+  height: auto;
+  margin-top: 10px;
+  overflow: hidden;
+  padding: 0;
+}
+
+.title {
+  color: #666;
+  font-family: verdana;
+  height: 25px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.sub-title {
+  color: #666;
+  font-family: verdana;
+  font-size: 11px;
+  text-align: center;
+}

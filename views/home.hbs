@@ -1,0 +1,11 @@
+<link rel="stylesheet" href="./css/style.css">
+
+  <div class="gameContainer">
+    {{#each data}}
+      <div class="game">
+        <img src={{ game.box.large }}>
+        <h4 class="title"> {{ game.name }} </h4>
+        <p class="sub-title"> {{ viewers }} viewers</p>
+      </div>
+    {{/each}}
+  </div>
